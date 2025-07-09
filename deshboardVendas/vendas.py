@@ -2,16 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-# Dados de exemplo
-data = {
-    'Ano': [2023, 2023, 2023, 2023, 2024, 2024, 2024, 2024],
-    'Mês': [1, 2, 3, 6, 1, 2, 3, 6],
-    'Marca': ['Nike', 'Adidas', 'Puma', 'Nike', 'Adidas', 'Puma', 'Nike', 'Adidas'],
-    'Tipo': ['Tênis', 'Camiseta', 'Tênis', 'Camiseta', 'Tênis', 'Camiseta', 'Tênis', 'Camiseta'],
-    'Faturamento': [1000, 800, 1200, 950, 1100, 850, 1300, 900],
-    'Lucro': [200, 150, 250, 180, 220, 170, 260, 180]
-}
-df = pd.DataFrame(data)
+df = pd.read_excel('vendas.xlsx')
 
 # Configuração da página
 st.set_page_config(page_title='Dash', layout='wide')
