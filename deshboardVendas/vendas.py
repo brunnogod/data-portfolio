@@ -26,8 +26,8 @@ meses_abreviados = {
 # Adicionando a coluna de meses abreviados
 df['Mês Abreviado'] = df['Mês'].map(meses_abreviados)
 
-ordem_meses= ['Jan','Feb', 'Mar' , 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep','Oct' ,'Nov', 'Dec']
-df['Mês Abreviado'] = pd.Categorical(df['Mês Abreviado'], categories= ordem_meses, ordered = True)
+ordem_meses = ['Jan','Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep','Oct', 'Nov', 'Dec']
+df['Mês Abreviado'] = pd.Categorical(df['Mês Abreviado'], categories=ordem_meses, ordered=True)
 
 # Reorganização das colunas (SEM a linha do @dropdown)
 colunas = df.columns.tolist()
@@ -35,10 +35,6 @@ colunas.remove('Mês Abreviado')
 indice_ano = colunas.index('Ano')
 colunas.insert(indice_ano + 1, 'Mês Abreviado')
 df = df[colunas]
-
-# Resto do código continua igual...
-
-
 
 # Sidebar - Filtros
 Ano = df['Ano'].dropna().unique()
@@ -64,7 +60,7 @@ if Mes_selecionado != "Todos":
 faturamento_marca = df_filtrado.groupby('Marca', as_index=False)['Faturamento'].sum()
 faturamento_tipo_marca = df_filtrado.groupby(['Tipo', 'Marca'], as_index=False)['Faturamento'].sum()
 faturamento_tipo = df_filtrado.groupby('Tipo', as_index=False)['Faturamento'].sum()
-faturamento_total = df_filtrado.groupby(['Ano' , 'Marca'])['Lucro'].sum().reset_index()
+faturamento_total = df_filtrado.groupby(['Ano', 'Marca'])['Lucro'].sum().reset_index()
 lucro_mensal = df_filtrado.groupby(['Mês Abreviado', 'Tipo'])['Lucro'].sum().reset_index()
 
 faturamento_total['Ano'] = faturamento_total['Ano'].astype(str)
@@ -76,26 +72,20 @@ fig_faturamento = px.bar(faturamento_marca, x='Marca', y='Faturamento',
 
 fig_faturamento_Tipo = px.bar(faturamento_tipo_marca, x='Tipo', y='Faturamento',
                               title='Faturamento por Tipo de Produto',
-                              
                               color='Marca')
 
-fig_faturamento_total = px.line(faturamento_total, x= 'Ano', y='Lucro',
+fig_faturamento_total = px.line(faturamento_total, x='Ano', y='Lucro',
                                color='Marca',
                                title='Lucro por Marca')
 
-
-
-fig_lucro_mensal = px.pie(lucro_mensal, names='Tipo' , values='Lucro',
-                          title= 'Lucro mensal por peça ',
+fig_lucro_mensal = px.pie(lucro_mensal, names='Tipo', values='Lucro',
+                          title='Lucro mensal por peça',
                           hole=0.2,
-                          color = 'Tipo')
-
-
+                          color='Tipo')
 
 fig_faturamento.update_layout(
     showlegend=False
 )
-
 
 fig_faturamento_total.update_layout(
     xaxis_title='Ano',
@@ -105,11 +95,6 @@ fig_faturamento_total.update_layout(
         dtick=1
     )
 )
-
-
-
-
-
 
 # Layout dos gráficos
 col1, col2 = st.columns([1, 1])
