@@ -2,8 +2,16 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-# Leitura do arquivo Excel
-df = pd.read_excel('vendas.xlsx')
+# Dados de exemplo
+data = {
+    'Ano': [2023, 2023, 2023, 2023, 2024, 2024, 2024, 2024],
+    'Mês': [1, 2, 3, 6, 1, 2, 3, 6],
+    'Marca': ['Nike', 'Adidas', 'Puma', 'Nike', 'Adidas', 'Puma', 'Nike', 'Adidas'],
+    'Tipo': ['Tênis', 'Camiseta', 'Tênis', 'Camiseta', 'Tênis', 'Camiseta', 'Tênis', 'Camiseta'],
+    'Faturamento': [1000, 800, 1200, 950, 1100, 850, 1300, 900],
+    'Lucro': [200, 150, 250, 180, 220, 170, 260, 180]
+}
+df = pd.DataFrame(data)
 
 # Configuração da página
 st.set_page_config(page_title='Dash', layout='wide')
@@ -15,23 +23,22 @@ meses_abreviados = {
     9: 'Sep', 10: 'Oct', 11: 'Nov', 12: 'Dec'
 }
 
-
 # Adicionando a coluna de meses abreviados
 df['Mês Abreviado'] = df['Mês'].map(meses_abreviados)
 
-
-ordem_meses= ['Jan','Feb', 'Mar' , 'Apr', 'May', 'Aug', 'Sep','Oct' ,'Nov', 'Dec']
-
-
+ordem_meses= ['Jan','Feb', 'Mar' , 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep','Oct' ,'Nov', 'Dec']
 df['Mês Abreviado'] = pd.Categorical(df['Mês Abreviado'], categories= ordem_meses, ordered = True)
 
-# Reorganização das colunas
-df = df.drop(columns=['@dropdown'])
+# Reorganização das colunas (SEM a linha do @dropdown)
 colunas = df.columns.tolist()
 colunas.remove('Mês Abreviado')
 indice_ano = colunas.index('Ano')
 colunas.insert(indice_ano + 1, 'Mês Abreviado')
 df = df[colunas]
+
+# Resto do código continua igual...
+
+
 
 # Sidebar - Filtros
 Ano = df['Ano'].dropna().unique()
