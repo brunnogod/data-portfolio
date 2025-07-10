@@ -45,7 +45,6 @@ Analista de dados especializado em transformar dados complexos em insights estra
 
 ### ♻️ [Dashboard MTR - Gestão de Resíduos Sólidos (Streamlit)](https://dashboard-app-wxs9q7qq6vjq5ftmewcxjj.streamlit.app/)
 
-![MTR Streamlit Preview](https://via.placeholder.com/600x300/228B22/FFFFFF?text=MTR+Dashboard+Streamlit)
 
 **Objetivo:** Aplicação web interativa para monitoramento de resíduos sólidos  
 **Tecnologias:** Python, Streamlit, Plotly, Pandas  
@@ -62,8 +61,6 @@ Analista de dados especializado em transformar dados complexos em insights estra
 
 ### 🌱 [Dashboard Bolsa Verde - Ministério do Meio Ambiente](https://app.powerbi.com/view?r=eyJrIjoiNzlmNDU1NjUtZDVhYy00MmVjLThhZjEtZTkzYzI3OTU3N2Q5IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
 
-![Dashboard Preview](https://via.placeholder.com/600x300/2E8B57/FFFFFF?text=Dashboard+Bolsa+Verde)
-
 **Objetivo:** Sistema de monitoramento de programa socioambiental governamental  
 **Tecnologias:** Power BI, PostgreSQL, Figma  
 **Highlights:**
@@ -76,7 +73,6 @@ Analista de dados especializado em transformar dados complexos em insights estra
 
 ### 🏥 [Dashboard UPA - Análise Hospitalar](https://app.powerbi.com/view?r=eyJrIjoiZjliZmJmZjAtYWUxOC00N2QyLTk0YmYtOTM3MDExMmVkYTk4IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
 
-![Dashboard Preview](https://via.placeholder.com/600x300/DC143C/FFFFFF?text=Dashboard+UPA)
 
 **Objetivo:** Otimização de fluxo de pacientes em Unidade de Pronto Atendimento  
 **Tecnologias:** Power BI, DAX, Statistical Analysis  
@@ -90,7 +86,6 @@ Analista de dados especializado em transformar dados complexos em insights estra
 
 ### ♻️ [Dashboard MTR - Gestão de Resíduos Sólidos (Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYWJmNzQxZmItNjVkYy00ZmUwLWJlOTEtMjYyZTY1ZmNmYTk1IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
 
-![Dashboard Preview](https://via.placeholder.com/600x300/228B22/FFFFFF?text=Dashboard+MTR)
 
 **Objetivo:** Monitoramento nacional de movimentação de resíduos sólidos  
 **Tecnologias:** Power BI, PostgreSQL  
@@ -103,8 +98,6 @@ Analista de dados especializado em transformar dados complexos em insights estra
 ---
 
 ### 🌿 [Dashboard CONAMA - Conselho Nacional do Meio Ambiente](https://app.powerbi.com/view?r=eyJrIjoiZjg3MjU5MmMtMzQ4Ny00ZmRkLWE2M2QtNDU3MTMyOWVjZTZmIiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
-
-![Dashboard Preview](https://via.placeholder.com/600x300/4169E1/FFFFFF?text=Dashboard+CONAMA)
 
 **Objetivo:** Painel executivo para políticas ambientais nacionais  
 **Tecnologias:** Power BI, PostgreSQL, DAX  
