@@ -4,7 +4,7 @@
 
 Analista de dados especializado em transformar dados complexos em insights estratégicos. Com 2+ anos de experiência em **SQL, Power BI e Python**, desenvolvimento soluções de Business Intelligence que impactam diretamente na tomada de decisões executivas.
 
-**Especialidades:** Data Analysis • Business Intelligence • ETL Processes • Statistical Modeling
+**Especialidades:** Data Analysis • Business Intelligence • ETL Processes • Statistical Modeling • Web Applications
 
 ---
 
@@ -13,16 +13,52 @@ Analista de dados especializado em transformar dados complexos em insights estra
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 
 **Bancos de Dados:** PostgreSQL, SQL Server  
 **Visualização:** Power BI, Plotly, Streamlit  
 **ETL:** Power Query, Python (Pandas)  
+**Web Apps:** Streamlit, Plotly Dash  
 **Outros:** Git, Figma, Excel Avançado
 
 ---
 
 ## 🚀 Projetos em Destaque
+
+### 🚚 [Roterizador Logístico - Otimização de Rotas](https://roterizador-2nyfpmckzgxtkg3e7gqstx.streamlit.app/)
+
+![Roterizador Preview](https://via.placeholder.com/600x300/FF6B35/FFFFFF?text=Roterizador+Logístico)
+
+**Objetivo:** Sistema web para otimização de rotas de entrega e coleta  
+**Tecnologias:** Python, Streamlit, Plotly, APIs de Geolocalização  
+**Highlights:**
+- Cálculo automático de rotas otimizadas
+- Interface interativa para gestão logística
+- Integração com APIs de mapas
+- Redução de custos operacionais
+- Visualização dinâmica de rotas
+
+**[🔗 Acesse a Aplicação](https://roterizador-2nyfpmckzgxtkg3e7gqstx.streamlit.app/)**
+
+---
+
+### ♻️ [Dashboard MTR - Gestão de Resíduos Sólidos (Streamlit)](https://dashboard-app-wxs9q7qq6vjq5ftmewcxjj.streamlit.app/)
+
+![MTR Streamlit Preview](https://via.placeholder.com/600x300/228B22/FFFFFF?text=MTR+Dashboard+Streamlit)
+
+**Objetivo:** Aplicação web interativa para monitoramento de resíduos sólidos  
+**Tecnologias:** Python, Streamlit, Plotly, Pandas  
+**Highlights:**
+- Dashboard interativo e responsivo
+- Análise em tempo real de dados ambientais
+- Filtros dinâmicos para exploração de dados
+- Visualizações modernas e intuitivas
+- Complemento ao dashboard Power BI
+
+**[🔗 Acesse a Aplicação](https://dashboard-app-wxs9q7qq6vjq5ftmewcxjj.streamlit.app/)**
+
+---
 
 ### 🌱 [Dashboard Bolsa Verde - Ministério do Meio Ambiente](https://app.powerbi.com/view?r=eyJrIjoiNzlmNDU1NjUtZDVhYy00MmVjLThhZjEtZTkzYzI3OTU3N2Q5IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
 
@@ -52,7 +88,7 @@ Analista de dados especializado em transformar dados complexos em insights estra
 
 ---
 
-### ♻️ [Dashboard MTR - Gestão de Resíduos Sólidos](https://app.powerbi.com/view?r=eyJrIjoiYWJmNzQxZmItNjVkYy00ZmUwLWJlOTEtMjYyZTY1ZmNmYTk1IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
+### ♻️ [Dashboard MTR - Gestão de Resíduos Sólidos (Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYWJmNzQxZmItNjVkYy00ZmUwLWJlOTEtMjYyZTY1ZmNmYTk1IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9)
 
 ![Dashboard Preview](https://via.placeholder.com/600x300/228B22/FFFFFF?text=Dashboard+MTR)
 
@@ -115,7 +151,7 @@ Analista de dados especializado em transformar dados complexos em insights estra
 
 Busco oportunidades desafiadoras em **Data Analytics**, **Business Intelligence** ou **Data Science** onde possa aplicar minha expertise técnica para gerar valor mensurável ao negócio.
 
-**Interesse especial em:** Análise Preditiva • Machine Learning • Big Data • Cloud Computing
+**Interesse especial em:** Análise Preditiva • Machine Learning • Big Data • Cloud Computing • Web Applications
 
 ---
 
